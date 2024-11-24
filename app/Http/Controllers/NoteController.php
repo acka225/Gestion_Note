@@ -54,6 +54,7 @@ $note = Note::create($validated);
 
 return response()->json($note, 201);
 
+
 }
 
 public function edit($id): View
